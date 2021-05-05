@@ -26,7 +26,7 @@ public class RecordJoystick extends SubsystemBase {
     boolean EOF = false;
     int i = 0;
     String data;
-    String[] arrayOfData;`
+    String[] arrayOfData;
     double x,y,z;
     double[][] finalData = new double[3][10000];
     FileReader csvReader = new FileReader("/U/Test.txt");
